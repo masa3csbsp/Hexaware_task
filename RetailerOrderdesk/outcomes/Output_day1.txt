@@ -1,0 +1,92 @@
+--- TASK 1: SEARCHING ---
+Linear Search: Found
+Linear Time: 5800 ns
+Binary Search: Found
+Binary Time: 1500 ns
+
+--- TASK 2: SELECTION SORT ---
+Order ID   Customer     Amount      
+1005       C105         Rs.4200.00   
+1010       C110         Rs.4200.00   
+1015       C105         Rs.4200.00   
+1020       C110         Rs.4200.00   
+1025       C105         Rs.4200.00   
+1008       C108         Rs.3500.00   
+1013       C103         Rs.3500.00   
+1003       C103         Rs.3500.00   
+1018       C108         Rs.3500.00   
+1023       C103         Rs.3500.00   
+1011       C101         Rs.2500.00   
+1006       C106         Rs.2500.00   
+1016       C106         Rs.2500.00   
+1021       C101         Rs.2500.00   
+1001       C101         Rs.2500.00   
+1026       C101         Rs.2500.00   
+1027       C101         Rs.2500.00   
+1022       C102         Rs.1500.00   
+1002       C102         Rs.1500.00   
+1012       C102         Rs.1500.00   
+1007       C107         Rs.1500.00   
+1017       C107         Rs.1500.00   
+1019       C109         Rs.500.00    
+1024       C104         Rs.500.00    
+1004       C104         Rs.500.00    
+1014       C104         Rs.500.00    
+1009       C109         Rs.500.00    
+Time: 737800 ns
+
+--- TASK 2: MERGE SORT ---
+Order ID   Customer     Amount      
+1005       C105         Rs.4200.00   
+1010       C110         Rs.4200.00   
+1015       C105         Rs.4200.00   
+1020       C110         Rs.4200.00   
+1025       C105         Rs.4200.00   
+1003       C103         Rs.3500.00   
+1008       C108         Rs.3500.00   
+1013       C103         Rs.3500.00   
+1018       C108         Rs.3500.00   
+1023       C103         Rs.3500.00   
+1001       C101         Rs.2500.00   
+1006       C106         Rs.2500.00   
+1011       C101         Rs.2500.00   
+1016       C106         Rs.2500.00   
+1021       C101         Rs.2500.00   
+1026       C101         Rs.2500.00   
+1027       C101         Rs.2500.00   
+1002       C102         Rs.1500.00   
+1007       C107         Rs.1500.00   
+1012       C102         Rs.1500.00   
+1017       C107         Rs.1500.00   
+1022       C102         Rs.1500.00   
+1004       C104         Rs.500.00    
+1009       C109         Rs.500.00    
+1014       C104         Rs.500.00    
+1019       C109         Rs.500.00    
+1024       C104         Rs.500.00    
+Time: 65900 ns
+
+--- DUPLICATE ORDER DETECTION ---
+Duplicate order found: 1026
+Duplicate order found: 1027
+
+--- TASK 4: STACK AND QUEUE ---
+
+Original amount: Rs.2500.0
+Order 1001 updated to Rs.9999.0
+Undo successful for order 1001
+Restored amount: Rs.2500.0
+
+Order 1001 added to dispatch queue.
+Order 1002 added to dispatch queue.
+Order 1003 added to dispatch queue.
+
+--- WAREHOUSE DISPATCH ---
+Dispatching order: 1001
+Dispatching order: 1002
+Dispatching order: 1003
+
+--- TASK 5: REFUND CALCULATION ---
+Refund amount: Rs.786
+Greedy minimum coins/notes: 7
+DP minimum coins/notes: 7
